@@ -8,6 +8,8 @@ A personal portfolio website deployed to AWS using S3 for storage and CloudFront
 
 ## Architecture
 
+User → CloudFront (CDN) → S3 Bucket (Static Files)
+
 ## AWS Services Used
 
 - **Amazon S3** — Stores and serves the static website files
@@ -21,7 +23,14 @@ A personal portfolio website deployed to AWS using S3 for storage and CloudFront
 - Custom error page (404)
 - Bucket policy restricting direct S3 access
 
-## Project Structure## Deployment Steps
+## Project Structure
+
+- index.html — Main portfolio page
+- style.css — Stylesheet
+- error.html — Custom 404 error page
+- README.md — Project documentation
+
+## Deployment Steps
 
 1. Created S3 bucket with static website hosting enabled
 2. Applied bucket policy for public read access
@@ -34,4 +43,3 @@ A personal portfolio website deployed to AWS using S3 for storage and CloudFront
 **Joe Greenwood**  
 AWS Cloud Practitioner  
 [GitHub](https://github.com/jgreenwo39)
-
