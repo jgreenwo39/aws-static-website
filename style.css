@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #1a1a2e;
+    color: white;
+    padding: 60px 0 40px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.1rem;
+    color: #a0a0c0;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #e0e0ff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #4fc3f7;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section:nth-child(even) {
+    background: #f5f7fa;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #1a1a2e;
+    border-bottom: 3px solid #4fc3f7;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+    max-width: 700px;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.skill {
+    background: #1a1a2e;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 0.95rem;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+
+.project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #1a1a2e;
+}
+
+.project-card a {
+    color: #4fc3f7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+#contact a {
+    color: #4fc3f7;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #1a1a2e;
+    color: #a0a0c0;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.9rem;
+}
